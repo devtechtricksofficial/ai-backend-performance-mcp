@@ -17,7 +17,7 @@
     "nodejs"
   ],
   "bin": {
-    "ai-backend-performance-mcp": "./src/index.js"
+    "ai-backend-performance-mcp": "src/index.js"
   },
   "files": [
     "src",
