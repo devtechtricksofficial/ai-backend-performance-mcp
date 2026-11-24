@@ -1,0 +1,40 @@
+{
+  "name": "ai-backend-performance-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for backend performance analysis in Node.js projects",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtechtricksofficial/ai-backend-performance-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "performance",
+    "n+1",
+    "prisma",
+    "nodejs"
+  ],
+  "bin": {
+    "ai-backend-performance-mcp": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.26.4",
+    "@babel/types": "^7.26.3",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.1"
+  }
+}
